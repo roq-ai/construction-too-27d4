@@ -1,0 +1,2102 @@
+[
+  {
+    "outlet": [
+      {
+        "id": "a30131bb-e775-46d7-81a3-06c9d43925b5",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "inventory_count": 89559,
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "created_at": "2023-10-10T08:14:06.018Z",
+        "updated_at": "2023-10-10T15:53:00.749Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7e43c77c-051b-4680-8007-f195be27ad01",
+        "name": "Outlet 2",
+        "location": "Shopping Mall",
+        "inventory_count": 69040,
+        "opening_hours": "8:30 AM",
+        "closing_hours": "7:30 PM",
+        "created_at": "2023-10-10T09:45:02.091Z",
+        "updated_at": "2023-10-10T11:38:47.986Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7e6a0dc1-dd70-4b36-aa4c-dbf6f4f81b03",
+        "name": "Outlet 3",
+        "location": "Business District",
+        "inventory_count": 69085,
+        "opening_hours": "10:00 AM",
+        "closing_hours": "8:00 PM",
+        "created_at": "2023-10-11T00:14:28.302Z",
+        "updated_at": "2023-10-10T09:01:55.230Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9325fbae-43df-483a-8835-5d4ece659073",
+        "name": "Outlet 4",
+        "location": "Suburb",
+        "inventory_count": 58689,
+        "opening_hours": "7:30 AM",
+        "closing_hours": "9:00 PM",
+        "created_at": "2023-10-10T15:48:45.227Z",
+        "updated_at": "2023-10-10T12:41:56.700Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ed1a59bf-3b57-45ab-ab2c-f9d151a6fe49",
+        "name": "Outlet 5",
+        "location": "Tourist Area",
+        "inventory_count": 30462,
+        "opening_hours": "9:30 AM",
+        "closing_hours": "5:30 PM",
+        "created_at": "2023-10-10T11:05:34.701Z",
+        "updated_at": "2023-10-10T21:56:25.119Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "a17f4025-90cf-44cb-bc95-3e1b5e5dbb16",
+        "name": "Tool 1",
+        "description": "A versatile tool for various DIY projects",
+        "price_per_day": 84019,
+        "available": true,
+        "created_at": "2023-10-10T02:52:12.513Z",
+        "updated_at": "2023-10-10T12:02:38.988Z",
+        "outlet_id": "7e43c77c-051b-4680-8007-f195be27ad01"
+      },
+      {
+        "id": "6599d899-8f14-4f9f-a89d-22c4925c16c6",
+        "name": "Tool 2",
+        "description": "An essential tool for woodworking",
+        "price_per_day": 34452,
+        "available": true,
+        "created_at": "2023-10-10T18:51:49.063Z",
+        "updated_at": "2023-10-10T03:33:54.317Z",
+        "outlet_id": "7e43c77c-051b-4680-8007-f195be27ad01"
+      },
+      {
+        "id": "3c89bf24-aafd-40fb-8287-3559f9e05aac",
+        "name": "Tool 3",
+        "description": "A high-quality tool for professional use",
+        "price_per_day": 66386,
+        "available": true,
+        "created_at": "2023-10-10T12:33:44.593Z",
+        "updated_at": "2023-10-10T13:57:00.659Z",
+        "outlet_id": "9325fbae-43df-483a-8835-5d4ece659073"
+      },
+      {
+        "id": "140736a7-68b6-4ecf-89ff-0c09d51da57f",
+        "name": "Tool 4",
+        "description": "A compact tool for easy storage and portability",
+        "price_per_day": 80785,
+        "available": false,
+        "created_at": "2023-10-10T13:53:54.820Z",
+        "updated_at": "2023-10-10T03:25:46.024Z",
+        "outlet_id": "7e43c77c-051b-4680-8007-f195be27ad01"
+      },
+      {
+        "id": "78103f46-58b6-44e0-8243-626e68f7442f",
+        "name": "Tool 5",
+        "description": "A durable tool designed for long-lasting performance",
+        "price_per_day": 9773,
+        "available": true,
+        "created_at": "2023-10-10T16:40:43.698Z",
+        "updated_at": "2023-10-10T12:46:42.602Z",
+        "outlet_id": "a30131bb-e775-46d7-81a3-06c9d43925b5"
+      }
+    ],
+    "rental": [
+      {
+        "id": "0bb8b138-e96c-42ac-8449-0e53a97c6c9e",
+        "start_date": "2023-10-10T11:23:16.093Z",
+        "end_date": "2023-10-10T12:09:10.393Z",
+        "total_price": 43146,
+        "created_at": "2023-10-10T09:05:38.088Z",
+        "updated_at": "2023-10-10T21:57:40.948Z",
+        "tool_id": "140736a7-68b6-4ecf-89ff-0c09d51da57f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06a1975c-a021-47e4-a0ca-97f09d3bf78c",
+        "start_date": "2023-10-10T06:34:49.495Z",
+        "end_date": "2023-10-10T19:46:36.452Z",
+        "total_price": 2538,
+        "created_at": "2023-10-10T05:24:10.624Z",
+        "updated_at": "2023-10-10T01:01:41.400Z",
+        "tool_id": "3c89bf24-aafd-40fb-8287-3559f9e05aac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12b925fb-498d-4992-9220-4ac8edae8d64",
+        "start_date": "2023-10-10T07:09:15.112Z",
+        "end_date": "2023-10-10T05:37:26.445Z",
+        "total_price": 78246,
+        "created_at": "2023-10-10T21:41:35.246Z",
+        "updated_at": "2023-10-10T08:02:21.206Z",
+        "tool_id": "a17f4025-90cf-44cb-bc95-3e1b5e5dbb16",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89226f12-7f46-42b2-ab6a-b3b53c44dcd1",
+        "start_date": "2023-10-10T08:25:07.619Z",
+        "end_date": "2023-10-10T09:08:04.979Z",
+        "total_price": 19051,
+        "created_at": "2023-10-10T01:03:43.745Z",
+        "updated_at": "2023-10-10T08:06:00.181Z",
+        "tool_id": "140736a7-68b6-4ecf-89ff-0c09d51da57f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0dd7d5c0-ec48-4fd7-b7f7-9fb62b4a97b8",
+        "start_date": "2023-10-10T17:00:22.681Z",
+        "end_date": "2023-10-10T16:25:08.602Z",
+        "total_price": 55794,
+        "created_at": "2023-10-10T23:50:01.429Z",
+        "updated_at": "2023-10-10T09:51:34.203Z",
+        "tool_id": "140736a7-68b6-4ecf-89ff-0c09d51da57f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "09783bb8-1ae3-46f5-b59c-e8c37cc50b6b",
+        "email": "Macy_Grimes@roq.tech",
+        "firstName": "Danyka",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6511768",
+        "tenantId": null
+      },
+      {
+        "reference": "d3bf8fcb-7812-4773-8817-59c52063af2b",
+        "email": "Lucinda40@roq.tech",
+        "firstName": "Gina",
+        "lastName": "Bayer-Franey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65354984",
+        "tenantId": null
+      },
+      {
+        "reference": "d1e7dccb-ce1f-42a3-b8b4-072c5f1c0962",
+        "email": "Branson_Watsica50@roq.tech",
+        "firstName": "Alvera",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8971681",
+        "tenantId": null
+      },
+      {
+        "reference": "91fb3949-7f07-4d96-bfd2-83654edbf45c",
+        "email": "Hulda59@roq.tech",
+        "firstName": "Antonia",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/826.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "65c9d431-6501-401e-a766-dba527d68a4d",
+        "email": "Lizeth.Casper@roq.tech",
+        "firstName": "Nova",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/621.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "bbea663e-c0eb-474d-b488-9d82d6f4b5af",
+        "name": "Coffee House",
+        "location": "Downtown",
+        "inventory_count": 45144,
+        "opening_hours": "8:00 AM",
+        "closing_hours": "6:00 PM",
+        "created_at": "2023-10-10T14:33:50.836Z",
+        "updated_at": "2023-10-10T03:05:58.810Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "057b8799-b989-4017-b4c7-b844fec4d201",
+        "name": "Fitness Center",
+        "location": "Shopping Mall",
+        "inventory_count": 21840,
+        "opening_hours": "9:30 AM",
+        "closing_hours": "10:00 PM",
+        "created_at": "2023-10-10T11:23:41.563Z",
+        "updated_at": "2023-10-10T15:12:09.194Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3ca4a513-350a-4fa7-b601-f03d5fbad0f3",
+        "name": "Bookstore",
+        "location": "Business District",
+        "inventory_count": 90547,
+        "opening_hours": "10:00 AM",
+        "closing_hours": "9:30 PM",
+        "created_at": "2023-10-10T21:22:06.175Z",
+        "updated_at": "2023-10-10T11:35:35.917Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "eff9cf52-7630-4a29-9238-db4e42ea59d7",
+        "name": "Restaurant",
+        "location": "Residential Area",
+        "inventory_count": 59888,
+        "opening_hours": "7:30 AM",
+        "closing_hours": "8:00 PM",
+        "created_at": "2023-10-10T05:08:38.346Z",
+        "updated_at": "2023-10-10T05:20:40.685Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bf9aa9e3-2902-4c5a-8813-101ff50ccde6",
+        "name": "Art Gallery",
+        "location": "Tourist Attraction",
+        "inventory_count": 69904,
+        "opening_hours": "9:00 AM",
+        "closing_hours": "7:00 PM",
+        "created_at": "2023-10-10T14:35:39.826Z",
+        "updated_at": "2023-10-10T11:00:42.962Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "1b556cec-fb37-48e5-b3f1-7d5b54266d7c",
+        "name": "Hammer",
+        "description": "A versatile tool used for pounding nails and removing them",
+        "price_per_day": 67876,
+        "available": false,
+        "created_at": "2023-10-10T17:30:58.626Z",
+        "updated_at": "2023-10-10T13:38:18.640Z",
+        "outlet_id": "bf9aa9e3-2902-4c5a-8813-101ff50ccde6"
+      },
+      {
+        "id": "559fa8ae-190d-434e-a2fd-532ecce87f96",
+        "name": "Screwdriver",
+        "description": "A tool used for tightening or loosening screws",
+        "price_per_day": 68519,
+        "available": true,
+        "created_at": "2023-10-10T05:23:23.214Z",
+        "updated_at": "2023-10-10T19:55:09.354Z",
+        "outlet_id": "bbea663e-c0eb-474d-b488-9d82d6f4b5af"
+      },
+      {
+        "id": "400c174e-c209-474e-ab9b-e56598f80d04",
+        "name": "Wrench",
+        "description": "A tool used for turning nuts and bolts",
+        "price_per_day": 12347,
+        "available": true,
+        "created_at": "2023-10-10T22:06:38.860Z",
+        "updated_at": "2023-10-10T02:02:27.535Z",
+        "outlet_id": "bbea663e-c0eb-474d-b488-9d82d6f4b5af"
+      },
+      {
+        "id": "7687c1fa-82ac-4981-8239-450327bfd56f",
+        "name": "Pliers",
+        "description": "A tool used for gripping and bending wires",
+        "price_per_day": 89439,
+        "available": false,
+        "created_at": "2023-10-10T15:52:17.010Z",
+        "updated_at": "2023-10-10T21:50:46.879Z",
+        "outlet_id": "eff9cf52-7630-4a29-9238-db4e42ea59d7"
+      },
+      {
+        "id": "f3f6da58-7e24-44fa-a078-5e76ea1e5cfa",
+        "name": "Drill",
+        "description": "A power tool used for drilling holes",
+        "price_per_day": 49106,
+        "available": true,
+        "created_at": "2023-10-10T03:39:30.905Z",
+        "updated_at": "2023-10-10T05:17:28.177Z",
+        "outlet_id": "eff9cf52-7630-4a29-9238-db4e42ea59d7"
+      }
+    ],
+    "rental": [
+      {
+        "id": "79fe2779-f8ca-4e6b-8ea4-9773160490f0",
+        "start_date": "2023-10-10T12:53:39.938Z",
+        "end_date": "2023-10-10T04:36:02.099Z",
+        "total_price": 73575,
+        "created_at": "2023-10-10T08:07:43.433Z",
+        "updated_at": "2023-10-10T14:24:26.300Z",
+        "tool_id": "400c174e-c209-474e-ab9b-e56598f80d04",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c56ecad-37d2-49b9-9373-e24bb656f8a9",
+        "start_date": "2023-10-10T04:20:26.690Z",
+        "end_date": "2023-10-10T15:41:47.587Z",
+        "total_price": 29547,
+        "created_at": "2023-10-10T03:07:31.285Z",
+        "updated_at": "2023-10-10T05:58:49.975Z",
+        "tool_id": "7687c1fa-82ac-4981-8239-450327bfd56f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fe8e1a0-347f-4d36-b86c-a065576ac477",
+        "start_date": "2023-10-10T00:33:14.539Z",
+        "end_date": "2023-10-10T07:25:46.020Z",
+        "total_price": 20406,
+        "created_at": "2023-10-10T00:44:40.291Z",
+        "updated_at": "2023-10-10T03:07:45.498Z",
+        "tool_id": "f3f6da58-7e24-44fa-a078-5e76ea1e5cfa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c77eba82-b998-46ca-98df-4135cdad76ec",
+        "start_date": "2023-10-10T14:00:32.439Z",
+        "end_date": "2023-10-10T23:44:16.629Z",
+        "total_price": 83238,
+        "created_at": "2023-10-10T22:54:59.894Z",
+        "updated_at": "2023-10-10T02:40:22.508Z",
+        "tool_id": "1b556cec-fb37-48e5-b3f1-7d5b54266d7c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "537afeb3-816f-4d91-96d3-3fd629cacdae",
+        "start_date": "2023-10-10T18:32:28.090Z",
+        "end_date": "2023-10-10T10:52:16.901Z",
+        "total_price": 38196,
+        "created_at": "2023-10-10T01:30:36.149Z",
+        "updated_at": "2023-10-10T05:37:59.709Z",
+        "tool_id": "7687c1fa-82ac-4981-8239-450327bfd56f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e6fda9aa-8f3c-42cf-9ab0-1f6b3f041069",
+        "email": "Aliza_Ebert0@roq.tech",
+        "firstName": "Houston",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1059.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b6974c3-4b88-40fc-9381-4df99e00e97f",
+        "email": "Erin46@roq.tech",
+        "firstName": "Fernando",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/456.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "242c5eb1-6af7-4968-b429-e7a438e63636",
+        "email": "Miracle59@roq.tech",
+        "firstName": "Nathaniel",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80432580",
+        "tenantId": null
+      },
+      {
+        "reference": "c33f1814-4b84-4279-a439-a5bfc3125ce2",
+        "email": "Issac.Reinger61@roq.tech",
+        "firstName": "Elta",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50655561",
+        "tenantId": null
+      },
+      {
+        "reference": "57993c9e-3cf8-4985-b972-aa8bc6acc06c",
+        "email": "Estefania.Osinski@roq.tech",
+        "firstName": "Stan",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46504255",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "dd65d1a5-64a8-4b96-a536-d40aaa02634f",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "inventory_count": 11117,
+        "opening_hours": "8:00 AM",
+        "closing_hours": "5:00 PM",
+        "created_at": "2023-10-10T16:46:49.842Z",
+        "updated_at": "2023-10-10T08:43:27.529Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d837cd57-eca4-4442-b307-3e9733e63639",
+        "name": "Outlet 2",
+        "location": "Shopping Mall",
+        "inventory_count": 64937,
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "created_at": "2023-10-10T08:20:10.617Z",
+        "updated_at": "2023-10-10T17:56:38.310Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5750b22f-ac7f-4018-b23a-85dbac1b2925",
+        "name": "Outlet 3",
+        "location": "Business Park",
+        "inventory_count": 59481,
+        "opening_hours": "10:00 AM",
+        "closing_hours": "7:00 PM",
+        "created_at": "2023-10-10T02:21:40.150Z",
+        "updated_at": "2023-10-10T21:28:54.977Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fd55df0c-f9cf-4c8b-9443-ce206067cc87",
+        "name": "Outlet 4",
+        "location": "Residential Area",
+        "inventory_count": 89484,
+        "opening_hours": "11:00 AM",
+        "closing_hours": "8:00 PM",
+        "created_at": "2023-10-11T00:02:18.529Z",
+        "updated_at": "2023-10-10T03:54:33.297Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e7694284-6135-4926-b060-bd18967b1298",
+        "name": "Outlet 5",
+        "location": "Tourist Attraction",
+        "inventory_count": 61203,
+        "opening_hours": "12:00 PM",
+        "closing_hours": "9:00 PM",
+        "created_at": "2023-10-10T18:13:57.182Z",
+        "updated_at": "2023-10-11T00:22:35.903Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "32ea97d3-6d87-4c39-b5c8-3675befaca3d",
+        "name": "Tool 1",
+        "description": "Powerful tool for data analysis",
+        "price_per_day": 69033,
+        "available": true,
+        "created_at": "2023-10-10T09:24:55.734Z",
+        "updated_at": "2023-10-10T12:30:50.526Z",
+        "outlet_id": "e7694284-6135-4926-b060-bd18967b1298"
+      },
+      {
+        "id": "cf6e291b-e8b3-4cf9-bd89-8f1029154901",
+        "name": "Tool 2",
+        "description": "Versatile tool for project management",
+        "price_per_day": 4838,
+        "available": false,
+        "created_at": "2023-10-10T15:33:31.194Z",
+        "updated_at": "2023-10-10T08:01:55.961Z",
+        "outlet_id": "dd65d1a5-64a8-4b96-a536-d40aaa02634f"
+      },
+      {
+        "id": "60be80b1-7779-4597-8b9d-d60a334d17c9",
+        "name": "Tool 3",
+        "description": "Cutting-edge tool for graphic design",
+        "price_per_day": 79131,
+        "available": true,
+        "created_at": "2023-10-10T03:32:05.650Z",
+        "updated_at": "2023-10-10T17:25:13.794Z",
+        "outlet_id": "fd55df0c-f9cf-4c8b-9443-ce206067cc87"
+      },
+      {
+        "id": "60d88d4a-57db-4384-8f1d-0e883b5d987b",
+        "name": "Tool 4",
+        "description": "Efficient tool for code debugging",
+        "price_per_day": 36548,
+        "available": true,
+        "created_at": "2023-10-10T10:36:13.499Z",
+        "updated_at": "2023-10-10T08:19:19.058Z",
+        "outlet_id": "fd55df0c-f9cf-4c8b-9443-ce206067cc87"
+      },
+      {
+        "id": "17f5eb0c-2266-405b-9d64-fe6bd986c1c4",
+        "name": "Tool 5",
+        "description": "User-friendly tool for video editing",
+        "price_per_day": 36302,
+        "available": true,
+        "created_at": "2023-10-10T03:48:24.979Z",
+        "updated_at": "2023-10-10T19:06:49.298Z",
+        "outlet_id": "e7694284-6135-4926-b060-bd18967b1298"
+      }
+    ],
+    "rental": [
+      {
+        "id": "3fb816d7-2783-49a2-8716-57a7acd8014c",
+        "start_date": "2023-10-10T14:03:36.441Z",
+        "end_date": "2023-10-10T09:22:39.090Z",
+        "total_price": 67072,
+        "created_at": "2023-10-10T04:41:33.871Z",
+        "updated_at": "2023-10-10T18:23:37.677Z",
+        "tool_id": "17f5eb0c-2266-405b-9d64-fe6bd986c1c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cb9bc4b-9856-49a1-b51a-e9acc7cdeb74",
+        "start_date": "2023-10-10T08:46:49.964Z",
+        "end_date": "2023-10-10T12:21:48.394Z",
+        "total_price": 50911,
+        "created_at": "2023-10-10T12:43:19.370Z",
+        "updated_at": "2023-10-10T16:27:05.808Z",
+        "tool_id": "60d88d4a-57db-4384-8f1d-0e883b5d987b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "174ed627-329e-4d3a-ac0f-dd315b9ad25d",
+        "start_date": "2023-10-10T19:55:21.240Z",
+        "end_date": "2023-10-10T03:24:21.989Z",
+        "total_price": 92109,
+        "created_at": "2023-10-10T15:46:47.565Z",
+        "updated_at": "2023-10-10T02:25:35.877Z",
+        "tool_id": "17f5eb0c-2266-405b-9d64-fe6bd986c1c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b235b533-2536-46a1-abff-2fd115d11a7e",
+        "start_date": "2023-10-10T10:51:11.051Z",
+        "end_date": "2023-10-10T01:53:08.226Z",
+        "total_price": 55382,
+        "created_at": "2023-10-10T11:50:27.267Z",
+        "updated_at": "2023-10-10T23:59:35.213Z",
+        "tool_id": "17f5eb0c-2266-405b-9d64-fe6bd986c1c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52a63df3-fa52-4163-827e-fe96647626d5",
+        "start_date": "2023-10-10T03:54:07.577Z",
+        "end_date": "2023-10-10T21:51:28.490Z",
+        "total_price": 68531,
+        "created_at": "2023-10-10T07:24:05.659Z",
+        "updated_at": "2023-10-10T20:46:27.324Z",
+        "tool_id": "cf6e291b-e8b3-4cf9-bd89-8f1029154901",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "eb61a728-161a-48a8-b646-3c74dfa15b2f",
+        "email": "Wendy_Schmeler@roq.tech",
+        "firstName": "Brendan",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17657217",
+        "tenantId": null
+      },
+      {
+        "reference": "ff0d7e18-19e5-49a6-b958-336fa73fd85d",
+        "email": "Norma.McKenzie@roq.tech",
+        "firstName": "Genoveva",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/812.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bcdf4051-e9ee-46d1-a452-f11e15bb2d1a",
+        "email": "Elbert79@roq.tech",
+        "firstName": "Darrin",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/67.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7257a4e8-a9f3-49a8-9627-6e94b02bc72d",
+        "email": "Reba_Satterfield8@roq.tech",
+        "firstName": "Vernie",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1121.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c6b4df14-1dbd-49b8-97ce-4ebe57d86e77",
+        "email": "Cleveland_Lemke@roq.tech",
+        "firstName": "Westley",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69080533",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "00f53f42-d0d4-45b4-ad4a-afa4b6f23ddd",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "inventory_count": 99461,
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "created_at": "2023-10-10T08:26:32.429Z",
+        "updated_at": "2023-10-10T06:44:40.213Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "308268b0-0297-4516-ad8d-e945662c4dd5",
+        "name": "Outlet 2",
+        "location": "Midtown",
+        "inventory_count": 86546,
+        "opening_hours": "10:00 AM",
+        "closing_hours": "7:00 PM",
+        "created_at": "2023-10-10T06:20:50.999Z",
+        "updated_at": "2023-10-10T13:18:59.344Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "089e67a2-4ec4-4d08-92d0-7d409e2e72cc",
+        "name": "Outlet 3",
+        "location": "Uptown",
+        "inventory_count": 23887,
+        "opening_hours": "8:30 AM",
+        "closing_hours": "5:30 PM",
+        "created_at": "2023-10-10T17:08:03.618Z",
+        "updated_at": "2023-10-10T06:27:10.204Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b059c796-4d88-4201-b711-14429d13dee2",
+        "name": "Outlet 4",
+        "location": "West End",
+        "inventory_count": 56429,
+        "opening_hours": "9:30 AM",
+        "closing_hours": "6:30 PM",
+        "created_at": "2023-10-10T18:17:02.576Z",
+        "updated_at": "2023-10-10T12:43:51.110Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dc2887c6-d5c5-49eb-92ac-0a9f6558b188",
+        "name": "Outlet 5",
+        "location": "East Side",
+        "inventory_count": 20600,
+        "opening_hours": "8:00 AM",
+        "closing_hours": "5:00 PM",
+        "created_at": "2023-10-10T02:10:38.410Z",
+        "updated_at": "2023-10-10T15:08:12.601Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "afab3dd6-1fa9-4d00-940a-77556f56ea30",
+        "name": "Tool 1",
+        "description": "Powerful tool for data analysis",
+        "price_per_day": 3890,
+        "available": true,
+        "created_at": "2023-10-10T04:16:26.492Z",
+        "updated_at": "2023-10-10T15:20:42.880Z",
+        "outlet_id": "089e67a2-4ec4-4d08-92d0-7d409e2e72cc"
+      },
+      {
+        "id": "948e6936-73ac-4a6a-8123-27dbc48b3630",
+        "name": "Tool 2",
+        "description": "Versatile tool for project management",
+        "price_per_day": 14255,
+        "available": true,
+        "created_at": "2023-10-10T19:43:45.515Z",
+        "updated_at": "2023-10-10T22:03:07.171Z",
+        "outlet_id": "308268b0-0297-4516-ad8d-e945662c4dd5"
+      },
+      {
+        "id": "86d48a93-5959-43ab-98bc-7fb151d74907",
+        "name": "Tool 3",
+        "description": "Innovative tool for collaboration",
+        "price_per_day": 81008,
+        "available": false,
+        "created_at": "2023-10-10T09:09:28.188Z",
+        "updated_at": "2023-10-10T11:11:56.495Z",
+        "outlet_id": "089e67a2-4ec4-4d08-92d0-7d409e2e72cc"
+      },
+      {
+        "id": "b6f1a307-8ef2-41eb-a900-fd33d4bd169b",
+        "name": "Tool 4",
+        "description": "Efficient tool for task automation",
+        "price_per_day": 61977,
+        "available": true,
+        "created_at": "2023-10-10T16:06:23.698Z",
+        "updated_at": "2023-10-10T22:23:42.567Z",
+        "outlet_id": "00f53f42-d0d4-45b4-ad4a-afa4b6f23ddd"
+      },
+      {
+        "id": "429cc6e6-e3ee-426a-995a-7ef93f29ab9d",
+        "name": "Tool 5",
+        "description": "User-friendly tool for document editing",
+        "price_per_day": 87641,
+        "available": false,
+        "created_at": "2023-10-10T17:22:41.958Z",
+        "updated_at": "2023-10-10T05:50:30.855Z",
+        "outlet_id": "dc2887c6-d5c5-49eb-92ac-0a9f6558b188"
+      }
+    ],
+    "rental": [
+      {
+        "id": "ac0bec1f-1a6f-4bf1-a15e-9a117c2e1702",
+        "start_date": "2023-10-10T09:14:11.564Z",
+        "end_date": "2023-10-10T12:04:05.202Z",
+        "total_price": 65849,
+        "created_at": "2023-10-10T18:24:32.043Z",
+        "updated_at": "2023-10-10T15:19:52.799Z",
+        "tool_id": "86d48a93-5959-43ab-98bc-7fb151d74907",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1d83aaf-63e9-425f-9bd1-9b5ab07bf7f0",
+        "start_date": "2023-10-10T22:58:22.248Z",
+        "end_date": "2023-10-11T00:22:13.775Z",
+        "total_price": 60544,
+        "created_at": "2023-10-10T18:35:22.177Z",
+        "updated_at": "2023-10-10T11:56:56.345Z",
+        "tool_id": "429cc6e6-e3ee-426a-995a-7ef93f29ab9d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b290c7af-2aa4-4e63-bfb5-93c01ade82e3",
+        "start_date": "2023-10-10T22:53:32.162Z",
+        "end_date": "2023-10-10T14:29:20.367Z",
+        "total_price": 69564,
+        "created_at": "2023-10-10T01:55:48.308Z",
+        "updated_at": "2023-10-10T07:40:23.121Z",
+        "tool_id": "afab3dd6-1fa9-4d00-940a-77556f56ea30",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f773b636-e744-48f0-9942-100f9ab73fbc",
+        "start_date": "2023-10-10T17:43:01.590Z",
+        "end_date": "2023-10-10T20:21:56.025Z",
+        "total_price": 23847,
+        "created_at": "2023-10-10T21:54:59.939Z",
+        "updated_at": "2023-10-10T17:04:42.333Z",
+        "tool_id": "86d48a93-5959-43ab-98bc-7fb151d74907",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abd7a397-9b52-4781-b7b8-328e23da0fe9",
+        "start_date": "2023-10-10T04:54:19.110Z",
+        "end_date": "2023-10-10T13:40:36.719Z",
+        "total_price": 86903,
+        "created_at": "2023-10-10T03:56:50.274Z",
+        "updated_at": "2023-10-10T13:08:51.374Z",
+        "tool_id": "afab3dd6-1fa9-4d00-940a-77556f56ea30",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a3380c1c-a847-46aa-b155-15c9243b355c",
+        "email": "Anastasia16@roq.tech",
+        "firstName": "Florida",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92623763",
+        "tenantId": null
+      },
+      {
+        "reference": "cabe4e0e-c454-4154-88cc-b24735ce2fea",
+        "email": "Liam44@roq.tech",
+        "firstName": "Lee",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23208523",
+        "tenantId": null
+      },
+      {
+        "reference": "896235b7-ae27-4a9d-8e90-ddd16ba9e080",
+        "email": "Arden.Oberbrunner@roq.tech",
+        "firstName": "Alfredo",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1030.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0063a560-20f1-4528-9502-040dd33b6c0e",
+        "email": "Zella_Durgan@roq.tech",
+        "firstName": "Leola",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/716.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64b2580e-cd59-44f7-b21c-55ea5b1eb2b9",
+        "email": "Mossie.Welch92@roq.tech",
+        "firstName": "Sheridan",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/596.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "08d773d7-301c-44cd-af55-91238bfbd9fb",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "inventory_count": 11059,
+        "opening_hours": "9:00 AM",
+        "closing_hours": "5:00 PM",
+        "created_at": "2023-10-10T23:48:34.962Z",
+        "updated_at": "2023-10-10T06:27:07.971Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9487c5e6-2556-4b0b-bb53-027660dd0806",
+        "name": "Outlet 2",
+        "location": "Midtown",
+        "inventory_count": 14524,
+        "opening_hours": "8:30 AM",
+        "closing_hours": "6:00 PM",
+        "created_at": "2023-10-10T23:39:35.750Z",
+        "updated_at": "2023-10-10T16:52:51.625Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3431c850-fc05-4c17-9763-630e2d345dfe",
+        "name": "Outlet 3",
+        "location": "Uptown",
+        "inventory_count": 89114,
+        "opening_hours": "10:00 AM",
+        "closing_hours": "7:00 PM",
+        "created_at": "2023-10-10T01:57:39.493Z",
+        "updated_at": "2023-10-10T01:25:23.252Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "89ce6f15-10ba-46d0-896b-1113a68954c0",
+        "name": "Outlet 4",
+        "location": "Suburb",
+        "inventory_count": 69269,
+        "opening_hours": "9:30 AM",
+        "closing_hours": "6:30 PM",
+        "created_at": "2023-10-10T05:02:48.957Z",
+        "updated_at": "2023-10-10T18:48:58.680Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b7014a53-e826-49e7-b4d4-28365269171b",
+        "name": "Outlet 5",
+        "location": "City Center",
+        "inventory_count": 56261,
+        "opening_hours": "8:00 AM",
+        "closing_hours": "5:30 PM",
+        "created_at": "2023-10-10T18:28:55.369Z",
+        "updated_at": "2023-10-10T08:53:55.687Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "020b2dbf-9255-4027-a175-a397c14c9d65",
+        "name": "Tool 1",
+        "description": "A versatile tool for various DIY projects",
+        "price_per_day": 81666,
+        "available": false,
+        "created_at": "2023-10-10T00:40:52.919Z",
+        "updated_at": "2023-10-10T04:40:27.028Z",
+        "outlet_id": "3431c850-fc05-4c17-9763-630e2d345dfe"
+      },
+      {
+        "id": "e0f44d79-6c87-4335-8be2-95054bc96705",
+        "name": "Tool 2",
+        "description": "An innovative tool for professional use",
+        "price_per_day": 68742,
+        "available": false,
+        "created_at": "2023-10-10T03:45:02.614Z",
+        "updated_at": "2023-10-10T07:12:21.946Z",
+        "outlet_id": "9487c5e6-2556-4b0b-bb53-027660dd0806"
+      },
+      {
+        "id": "8b8dc9e8-c28f-4647-8b81-9d9293dbbc33",
+        "name": "Tool 3",
+        "description": "A reliable tool for everyday tasks",
+        "price_per_day": 5968,
+        "available": true,
+        "created_at": "2023-10-10T22:52:05.695Z",
+        "updated_at": "2023-10-10T10:44:07.503Z",
+        "outlet_id": "08d773d7-301c-44cd-af55-91238bfbd9fb"
+      },
+      {
+        "id": "8c5a6898-6b8e-44e7-bc02-14d83f5ec70d",
+        "name": "Tool 4",
+        "description": "A high-quality tool with advanced features",
+        "price_per_day": 66118,
+        "available": false,
+        "created_at": "2023-10-10T01:14:05.894Z",
+        "updated_at": "2023-10-10T23:20:05.495Z",
+        "outlet_id": "89ce6f15-10ba-46d0-896b-1113a68954c0"
+      },
+      {
+        "id": "f93b2a18-50f5-4306-8e96-f0c2f1cd81d0",
+        "name": "Tool 5",
+        "description": "A compact tool for easy storage",
+        "price_per_day": 84037,
+        "available": false,
+        "created_at": "2023-10-10T22:10:00.288Z",
+        "updated_at": "2023-10-10T05:45:39.743Z",
+        "outlet_id": "08d773d7-301c-44cd-af55-91238bfbd9fb"
+      }
+    ],
+    "rental": [
+      {
+        "id": "a1ee8a74-1b85-4424-8f10-175f116d1799",
+        "start_date": "2023-10-10T17:41:28.439Z",
+        "end_date": "2023-10-10T08:00:38.789Z",
+        "total_price": 70289,
+        "created_at": "2023-10-10T16:16:06.571Z",
+        "updated_at": "2023-10-10T22:19:25.868Z",
+        "tool_id": "f93b2a18-50f5-4306-8e96-f0c2f1cd81d0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be74bf3b-cbd2-4ff5-9347-c063ab3cace4",
+        "start_date": "2023-10-10T12:34:38.892Z",
+        "end_date": "2023-10-10T17:21:09.117Z",
+        "total_price": 16400,
+        "created_at": "2023-10-10T10:00:23.691Z",
+        "updated_at": "2023-10-10T07:43:42.499Z",
+        "tool_id": "020b2dbf-9255-4027-a175-a397c14c9d65",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72a0e07e-9fc4-4f73-9739-ab2d99471135",
+        "start_date": "2023-10-10T08:52:13.795Z",
+        "end_date": "2023-10-10T08:31:50.013Z",
+        "total_price": 77740,
+        "created_at": "2023-10-10T11:39:29.433Z",
+        "updated_at": "2023-10-10T05:34:56.264Z",
+        "tool_id": "020b2dbf-9255-4027-a175-a397c14c9d65",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f95ba9ee-1692-41d2-b0ae-9fdabe95fde1",
+        "start_date": "2023-10-10T07:05:07.342Z",
+        "end_date": "2023-10-10T19:47:54.542Z",
+        "total_price": 97013,
+        "created_at": "2023-10-10T18:42:17.801Z",
+        "updated_at": "2023-10-10T07:44:11.940Z",
+        "tool_id": "020b2dbf-9255-4027-a175-a397c14c9d65",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d155c1ab-5a28-4d5e-b8fa-846dd1a16032",
+        "start_date": "2023-10-10T15:17:31.150Z",
+        "end_date": "2023-10-10T07:53:45.503Z",
+        "total_price": 19558,
+        "created_at": "2023-10-10T06:36:12.690Z",
+        "updated_at": "2023-10-10T23:11:27.373Z",
+        "tool_id": "020b2dbf-9255-4027-a175-a397c14c9d65",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "46e4f8a4-c3c2-4054-a366-cc1d34522320",
+        "email": "Etha_Williamson@roq.tech",
+        "firstName": "Emie",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/793.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e81e9428-a939-4490-9917-6ce51f0662ae",
+        "email": "Gabriel29@roq.tech",
+        "firstName": "Walter",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/185.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5efc5543-d11d-42a3-8be0-10d23eb785ae",
+        "email": "Hank.Fritsch6@roq.tech",
+        "firstName": "Maegan",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1050.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4f3f4ea-3a6c-480d-bfbc-192680550814",
+        "email": "Adaline_Labadie@roq.tech",
+        "firstName": "Gabe",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/932.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "74fe4df3-59a7-4b23-a6df-db65aab14d9a",
+        "email": "Savanna77@roq.tech",
+        "firstName": "Rhiannon",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46212342",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "8a54e606-5d64-4940-b3e0-ac4d07ebf986",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "inventory_count": 29219,
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "created_at": "2023-10-10T11:48:04.327Z",
+        "updated_at": "2023-10-10T10:21:58.480Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "82cf03f6-09fd-45a0-be28-8e6f0adf2d09",
+        "name": "Outlet 2",
+        "location": "Mall",
+        "inventory_count": 24450,
+        "opening_hours": "10:00 AM",
+        "closing_hours": "7:00 PM",
+        "created_at": "2023-10-10T22:13:24.172Z",
+        "updated_at": "2023-10-10T10:51:39.713Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c90ecee4-1040-4127-900d-45d5df27efca",
+        "name": "Outlet 3",
+        "location": "Shopping Center",
+        "inventory_count": 97276,
+        "opening_hours": "8:30 AM",
+        "closing_hours": "5:30 PM",
+        "created_at": "2023-10-10T17:38:37.990Z",
+        "updated_at": "2023-10-10T01:14:30.295Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5dfe9c31-6e56-4479-9a22-e41dace8fe33",
+        "name": "Outlet 4",
+        "location": "Business District",
+        "inventory_count": 86409,
+        "opening_hours": "9:30 AM",
+        "closing_hours": "6:30 PM",
+        "created_at": "2023-10-10T12:39:00.505Z",
+        "updated_at": "2023-10-10T11:27:38.169Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4efd44f1-2d61-44b2-8c93-1bd8a1732b51",
+        "name": "Outlet 5",
+        "location": "Residential Area",
+        "inventory_count": 45816,
+        "opening_hours": "10:30 AM",
+        "closing_hours": "7:30 PM",
+        "created_at": "2023-10-10T03:59:47.731Z",
+        "updated_at": "2023-10-10T08:19:38.182Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "5c2b7503-226a-4c2b-88a5-26541444fb31",
+        "name": "Tool 1",
+        "description": "A versatile tool for various DIY projects",
+        "price_per_day": 45192,
+        "available": false,
+        "created_at": "2023-10-10T07:10:43.606Z",
+        "updated_at": "2023-10-11T00:11:17.024Z",
+        "outlet_id": "c90ecee4-1040-4127-900d-45d5df27efca"
+      },
+      {
+        "id": "6d06926b-1e6d-4930-b925-8ab15e69e29f",
+        "name": "Tool 2",
+        "description": "An innovative tool with advanced features",
+        "price_per_day": 91701,
+        "available": true,
+        "created_at": "2023-10-10T02:46:04.115Z",
+        "updated_at": "2023-10-10T15:04:38.287Z",
+        "outlet_id": "82cf03f6-09fd-45a0-be28-8e6f0adf2d09"
+      },
+      {
+        "id": "c96d9a59-3635-4951-8e68-14d1c96b6edc",
+        "name": "Tool 3",
+        "description": "A reliable tool for professional use",
+        "price_per_day": 35755,
+        "available": false,
+        "created_at": "2023-10-10T07:32:58.266Z",
+        "updated_at": "2023-10-10T19:08:08.963Z",
+        "outlet_id": "4efd44f1-2d61-44b2-8c93-1bd8a1732b51"
+      },
+      {
+        "id": "5bf21ef5-4dd7-4d15-a61c-aa0e9783ade0",
+        "name": "Tool 4",
+        "description": "A compact tool for easy storage and portability",
+        "price_per_day": 23800,
+        "available": true,
+        "created_at": "2023-10-10T20:38:18.909Z",
+        "updated_at": "2023-10-10T14:22:58.174Z",
+        "outlet_id": "c90ecee4-1040-4127-900d-45d5df27efca"
+      },
+      {
+        "id": "c5bc28b3-889e-4372-bcab-7bec7009ed86",
+        "name": "Tool 5",
+        "description": "A durable tool built to last",
+        "price_per_day": 3004,
+        "available": true,
+        "created_at": "2023-10-10T01:42:28.923Z",
+        "updated_at": "2023-10-10T08:17:19.562Z",
+        "outlet_id": "c90ecee4-1040-4127-900d-45d5df27efca"
+      }
+    ],
+    "rental": [
+      {
+        "id": "2c1f29d9-e240-4711-a2b6-d3712ad99d50",
+        "start_date": "2023-10-10T02:02:01.823Z",
+        "end_date": "2023-10-10T13:31:13.762Z",
+        "total_price": 92097,
+        "created_at": "2023-10-10T22:19:42.131Z",
+        "updated_at": "2023-10-10T12:06:44.556Z",
+        "tool_id": "5c2b7503-226a-4c2b-88a5-26541444fb31",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eecacc20-aebd-4810-9d4e-3b1039e30847",
+        "start_date": "2023-10-10T10:50:53.395Z",
+        "end_date": "2023-10-10T15:59:02.875Z",
+        "total_price": 24425,
+        "created_at": "2023-10-10T20:50:21.427Z",
+        "updated_at": "2023-10-10T03:04:44.924Z",
+        "tool_id": "c5bc28b3-889e-4372-bcab-7bec7009ed86",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "556f2658-061b-4c63-be82-747831822dc3",
+        "start_date": "2023-10-10T17:32:45.422Z",
+        "end_date": "2023-10-10T18:44:06.311Z",
+        "total_price": 83702,
+        "created_at": "2023-10-10T14:54:19.616Z",
+        "updated_at": "2023-10-10T14:54:36.876Z",
+        "tool_id": "6d06926b-1e6d-4930-b925-8ab15e69e29f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12efa2cb-d44a-4690-b47a-bc6b4e405afe",
+        "start_date": "2023-10-10T15:03:34.918Z",
+        "end_date": "2023-10-10T20:10:12.083Z",
+        "total_price": 90554,
+        "created_at": "2023-10-10T10:22:33.112Z",
+        "updated_at": "2023-10-10T13:22:38.631Z",
+        "tool_id": "c5bc28b3-889e-4372-bcab-7bec7009ed86",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b74187c5-9020-4779-beb9-ffe2d3f86df1",
+        "start_date": "2023-10-10T18:10:32.688Z",
+        "end_date": "2023-10-10T17:44:49.181Z",
+        "total_price": 41049,
+        "created_at": "2023-10-10T11:50:12.854Z",
+        "updated_at": "2023-10-10T18:56:58.051Z",
+        "tool_id": "c5bc28b3-889e-4372-bcab-7bec7009ed86",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "31e9b77f-c3c0-475a-92cd-e35d305f6361",
+        "email": "Antone.Erdman51@roq.tech",
+        "firstName": "Reynold",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/571.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1bbdee65-4538-4a68-b201-6489ae1f28fa",
+        "email": "Giovanna.Bergstrom@roq.tech",
+        "firstName": "Michale",
+        "lastName": "Boyer-Bashirian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/859.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b8a8769b-2edc-4ee6-9c3a-b291886f4391",
+        "email": "Antonette.Witting42@roq.tech",
+        "firstName": "Irma",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1002.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4038b747-4cc3-4c2e-b876-727b0054e05c",
+        "email": "Gregoria92@roq.tech",
+        "firstName": "Shanel",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74396957",
+        "tenantId": null
+      },
+      {
+        "reference": "99503a93-80d5-4c3f-81a9-9dab3f09f90d",
+        "email": "Geovany_Fisher@roq.tech",
+        "firstName": "Nayeli",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39087258",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "65b61413-51a2-4f57-8cb7-148952344e28",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "inventory_count": 81311,
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "created_at": "2023-10-10T21:05:35.676Z",
+        "updated_at": "2023-10-10T14:02:20.786Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1b5ef4ea-68ce-4392-afdb-f467bf7ac8d1",
+        "name": "Outlet 2",
+        "location": "Shopping Mall",
+        "inventory_count": 27349,
+        "opening_hours": "8:30 AM",
+        "closing_hours": "9:00 PM",
+        "created_at": "2023-10-10T15:24:48.947Z",
+        "updated_at": "2023-10-10T12:28:16.478Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3a4957b5-800e-44c1-b228-fa601f03f266",
+        "name": "Outlet 3",
+        "location": "Business District",
+        "inventory_count": 40480,
+        "opening_hours": "10:00 AM",
+        "closing_hours": "7:30 PM",
+        "created_at": "2023-10-10T01:10:57.296Z",
+        "updated_at": "2023-10-11T00:25:20.217Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fcabc11f-39dd-43dc-828f-f845c3c83165",
+        "name": "Outlet 4",
+        "location": "Residential Area",
+        "inventory_count": 97155,
+        "opening_hours": "7:30 AM",
+        "closing_hours": "8:00 PM",
+        "created_at": "2023-10-10T15:11:48.306Z",
+        "updated_at": "2023-10-10T19:54:49.534Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2594e2ff-ab17-4ae5-8545-2fdcd44edd46",
+        "name": "Outlet 5",
+        "location": "Tourist Spot",
+        "inventory_count": 40987,
+        "opening_hours": "9:30 AM",
+        "closing_hours": "5:30 PM",
+        "created_at": "2023-10-10T00:37:02.388Z",
+        "updated_at": "2023-10-10T13:56:34.524Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "4a337112-ba54-48ce-801e-3e3610ec46c9",
+        "name": "Tool 1",
+        "description": "A versatile tool for various tasks",
+        "price_per_day": 9504,
+        "available": false,
+        "created_at": "2023-10-10T05:34:20.475Z",
+        "updated_at": "2023-10-10T04:24:08.250Z",
+        "outlet_id": "fcabc11f-39dd-43dc-828f-f845c3c83165"
+      },
+      {
+        "id": "ce269d8e-d7e1-4d83-b2f6-979b746dee90",
+        "name": "Tool 2",
+        "description": "An innovative tool with advanced features",
+        "price_per_day": 58469,
+        "available": true,
+        "created_at": "2023-10-10T02:00:14.571Z",
+        "updated_at": "2023-10-10T22:57:52.025Z",
+        "outlet_id": "fcabc11f-39dd-43dc-828f-f845c3c83165"
+      },
+      {
+        "id": "49c84ad7-d760-4f07-a1ab-e095e8c2e235",
+        "name": "Tool 3",
+        "description": "A reliable tool for everyday use",
+        "price_per_day": 37768,
+        "available": true,
+        "created_at": "2023-10-10T03:57:53.935Z",
+        "updated_at": "2023-10-11T00:30:08.431Z",
+        "outlet_id": "65b61413-51a2-4f57-8cb7-148952344e28"
+      },
+      {
+        "id": "84beff40-7e59-460c-93fe-81a7bdf4c4dd",
+        "name": "Tool 4",
+        "description": "A durable tool built to last",
+        "price_per_day": 38282,
+        "available": true,
+        "created_at": "2023-10-10T08:52:55.823Z",
+        "updated_at": "2023-10-10T06:57:26.858Z",
+        "outlet_id": "1b5ef4ea-68ce-4392-afdb-f467bf7ac8d1"
+      },
+      {
+        "id": "fc35f50d-52cc-43ca-9baa-0a60ebb14ffd",
+        "name": "Tool 5",
+        "description": "A user-friendly tool for beginners",
+        "price_per_day": 41574,
+        "available": true,
+        "created_at": "2023-10-10T03:05:59.006Z",
+        "updated_at": "2023-10-10T21:31:27.100Z",
+        "outlet_id": "1b5ef4ea-68ce-4392-afdb-f467bf7ac8d1"
+      }
+    ],
+    "rental": [
+      {
+        "id": "5b92eb4f-7965-4677-b571-ffe1a8804f65",
+        "start_date": "2023-10-10T16:49:18.797Z",
+        "end_date": "2023-10-10T11:11:41.315Z",
+        "total_price": 91773,
+        "created_at": "2023-10-10T13:37:35.566Z",
+        "updated_at": "2023-10-10T16:28:01.862Z",
+        "tool_id": "49c84ad7-d760-4f07-a1ab-e095e8c2e235",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8b47194-3288-4458-916a-9454f8a10609",
+        "start_date": "2023-10-10T21:49:29.369Z",
+        "end_date": "2023-10-10T10:21:06.445Z",
+        "total_price": 12186,
+        "created_at": "2023-10-10T06:13:21.912Z",
+        "updated_at": "2023-10-10T03:17:24.799Z",
+        "tool_id": "4a337112-ba54-48ce-801e-3e3610ec46c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d207fc90-197d-4bad-8166-9523f86eab17",
+        "start_date": "2023-10-10T02:46:08.816Z",
+        "end_date": "2023-10-10T23:14:59.012Z",
+        "total_price": 41722,
+        "created_at": "2023-10-10T23:03:41.351Z",
+        "updated_at": "2023-10-10T20:42:17.758Z",
+        "tool_id": "4a337112-ba54-48ce-801e-3e3610ec46c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2aba368c-ab26-4078-948e-d4d42fde090c",
+        "start_date": "2023-10-10T22:11:16.189Z",
+        "end_date": "2023-10-10T10:50:42.034Z",
+        "total_price": 29031,
+        "created_at": "2023-10-10T16:30:11.137Z",
+        "updated_at": "2023-10-10T05:36:08.368Z",
+        "tool_id": "ce269d8e-d7e1-4d83-b2f6-979b746dee90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3cf1444-c01f-4a8c-9909-c6c444f517a9",
+        "start_date": "2023-10-10T00:57:53.430Z",
+        "end_date": "2023-10-10T06:55:13.700Z",
+        "total_price": 97325,
+        "created_at": "2023-10-10T05:11:54.768Z",
+        "updated_at": "2023-10-10T04:45:42.579Z",
+        "tool_id": "49c84ad7-d760-4f07-a1ab-e095e8c2e235",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9b672070-eeb7-4218-b1be-7819e4c3e9b4",
+        "email": "Winona_Connelly78@roq.tech",
+        "firstName": "Cloyd",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53909076",
+        "tenantId": null
+      },
+      {
+        "reference": "8b4a8ab5-6308-4c38-8a9c-b73299c26712",
+        "email": "Keara.Nicolas83@roq.tech",
+        "firstName": "Icie",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/633.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b193b63f-f2b0-4777-9bb9-726c1a102515",
+        "email": "George.Casper67@roq.tech",
+        "firstName": "Willow",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42232951",
+        "tenantId": null
+      },
+      {
+        "reference": "dc6089cb-fbec-4de4-8847-7545235c0f07",
+        "email": "Angeline96@roq.tech",
+        "firstName": "Filomena",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15513148",
+        "tenantId": null
+      },
+      {
+        "reference": "8f93ec58-9095-4c3f-ab1e-ac30d65dadfe",
+        "email": "Margaret_McDermott91@roq.tech",
+        "firstName": "Obie",
+        "lastName": "Gulgowski-Rogahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/423.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "a3e6d3d7-ca68-4610-a5c9-317775abb8b1",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "inventory_count": 4538,
+        "opening_hours": "9:00 AM",
+        "closing_hours": "5:00 PM",
+        "created_at": "2023-10-10T02:13:12.513Z",
+        "updated_at": "2023-10-10T22:04:09.352Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1ef49966-b690-4278-8262-34a72a9dd494",
+        "name": "Outlet 2",
+        "location": "Midtown",
+        "inventory_count": 3177,
+        "opening_hours": "8:30 AM",
+        "closing_hours": "6:00 PM",
+        "created_at": "2023-10-10T11:13:49.460Z",
+        "updated_at": "2023-10-10T04:47:11.044Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7485efe9-7bc1-40bf-8f62-82bf6396fb1a",
+        "name": "Outlet 3",
+        "location": "Uptown",
+        "inventory_count": 89151,
+        "opening_hours": "10:00 AM",
+        "closing_hours": "4:30 PM",
+        "created_at": "2023-10-10T18:15:50.821Z",
+        "updated_at": "2023-10-10T06:43:03.385Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "813e1788-8e3e-4b8d-980a-491e30118ddc",
+        "name": "Outlet 4",
+        "location": "Suburb",
+        "inventory_count": 79376,
+        "opening_hours": "9:30 AM",
+        "closing_hours": "5:30 PM",
+        "created_at": "2023-10-10T15:04:35.874Z",
+        "updated_at": "2023-10-10T08:11:39.454Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "55cdb645-65d8-48eb-9a5e-de221f836aea",
+        "name": "Outlet 5",
+        "location": "City Center",
+        "inventory_count": 18859,
+        "opening_hours": "8:00 AM",
+        "closing_hours": "6:30 PM",
+        "created_at": "2023-10-10T14:27:02.181Z",
+        "updated_at": "2023-10-10T12:48:34.140Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "cf938c86-7688-4c18-9b83-1eca4690229f",
+        "name": "Tool 1",
+        "description": "Powerful tool for data analysis",
+        "price_per_day": 28860,
+        "available": false,
+        "created_at": "2023-10-10T23:01:52.870Z",
+        "updated_at": "2023-10-10T23:31:41.522Z",
+        "outlet_id": "1ef49966-b690-4278-8262-34a72a9dd494"
+      },
+      {
+        "id": "9eb92ace-94cc-461f-b22c-98bb80cef76f",
+        "name": "Tool 2",
+        "description": "Versatile tool for project management",
+        "price_per_day": 88387,
+        "available": true,
+        "created_at": "2023-10-10T04:59:47.123Z",
+        "updated_at": "2023-10-10T22:47:57.364Z",
+        "outlet_id": "a3e6d3d7-ca68-4610-a5c9-317775abb8b1"
+      },
+      {
+        "id": "66214699-9a50-4540-aaaf-8c17459cf5e5",
+        "name": "Tool 3",
+        "description": "Efficient tool for task automation",
+        "price_per_day": 2261,
+        "available": true,
+        "created_at": "2023-10-10T21:41:58.738Z",
+        "updated_at": "2023-10-11T00:02:46.078Z",
+        "outlet_id": "1ef49966-b690-4278-8262-34a72a9dd494"
+      },
+      {
+        "id": "795f9e9d-a18c-4063-9385-307d8baa3680",
+        "name": "Tool 4",
+        "description": "User-friendly tool for collaboration",
+        "price_per_day": 7879,
+        "available": true,
+        "created_at": "2023-10-11T00:23:03.088Z",
+        "updated_at": "2023-10-10T15:29:54.170Z",
+        "outlet_id": "7485efe9-7bc1-40bf-8f62-82bf6396fb1a"
+      },
+      {
+        "id": "2dabb8cb-81cf-4d83-bada-62617ee1d952",
+        "name": "Tool 5",
+        "description": "Innovative tool for problem-solving",
+        "price_per_day": 7510,
+        "available": true,
+        "created_at": "2023-10-10T05:07:38.058Z",
+        "updated_at": "2023-10-10T07:55:01.952Z",
+        "outlet_id": "55cdb645-65d8-48eb-9a5e-de221f836aea"
+      }
+    ],
+    "rental": [
+      {
+        "id": "2ea580ca-a4aa-4fd3-b506-d87a745c55a0",
+        "start_date": "2023-10-10T12:58:11.688Z",
+        "end_date": "2023-10-10T17:02:19.014Z",
+        "total_price": 43297,
+        "created_at": "2023-10-10T10:08:55.577Z",
+        "updated_at": "2023-10-10T09:56:11.219Z",
+        "tool_id": "66214699-9a50-4540-aaaf-8c17459cf5e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdc6b639-006c-4105-a73c-562180584070",
+        "start_date": "2023-10-10T15:53:57.667Z",
+        "end_date": "2023-10-10T11:56:55.160Z",
+        "total_price": 31534,
+        "created_at": "2023-10-10T02:32:14.687Z",
+        "updated_at": "2023-10-10T18:52:03.320Z",
+        "tool_id": "9eb92ace-94cc-461f-b22c-98bb80cef76f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a19f8c80-4801-4130-9ab8-6b4192eece93",
+        "start_date": "2023-10-10T06:05:23.253Z",
+        "end_date": "2023-10-10T05:47:45.383Z",
+        "total_price": 33656,
+        "created_at": "2023-10-10T23:43:29.393Z",
+        "updated_at": "2023-10-10T23:39:55.803Z",
+        "tool_id": "cf938c86-7688-4c18-9b83-1eca4690229f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "779d54cf-b78a-4f68-8d2c-7f95953f3763",
+        "start_date": "2023-10-11T00:30:03.106Z",
+        "end_date": "2023-10-10T02:07:27.837Z",
+        "total_price": 82487,
+        "created_at": "2023-10-10T12:40:39.028Z",
+        "updated_at": "2023-10-10T03:32:50.667Z",
+        "tool_id": "66214699-9a50-4540-aaaf-8c17459cf5e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00be8206-766e-4ed6-9b8a-7c3f312072c9",
+        "start_date": "2023-10-10T09:25:23.346Z",
+        "end_date": "2023-10-10T22:09:49.159Z",
+        "total_price": 97710,
+        "created_at": "2023-10-10T14:32:07.155Z",
+        "updated_at": "2023-10-10T02:45:12.753Z",
+        "tool_id": "795f9e9d-a18c-4063-9385-307d8baa3680",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "572c8c88-57a4-45d4-9b51-611080e1779f",
+        "email": "Emmalee93@roq.tech",
+        "firstName": "Dena",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d03ae9fe-2709-4a85-bbb2-afe38fa79990",
+        "email": "Felipe_Braun9@roq.tech",
+        "firstName": "Maximilian",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91308201",
+        "tenantId": null
+      },
+      {
+        "reference": "c2e4b393-7666-4b90-bb29-73bcb8499856",
+        "email": "Chanel_Nicolas16@roq.tech",
+        "firstName": "Kennith",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1173.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a898738a-dd06-499c-810b-6fdd38ac72f2",
+        "email": "Bettye88@roq.tech",
+        "firstName": "Clair",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/685.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d08dc88d-0bed-4572-982b-43e02b00e058",
+        "email": "Lionel.Crist74@roq.tech",
+        "firstName": "Maudie",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2535144",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "d3fefb40-2ac9-4481-9506-a6ce8155ec50",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "inventory_count": 65162,
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "created_at": "2023-10-10T17:22:53.599Z",
+        "updated_at": "2023-10-10T06:32:20.797Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3095f894-f6ef-4c0c-8bf0-06d6fd6247d3",
+        "name": "Outlet 2",
+        "location": "Shopping Mall",
+        "inventory_count": 78202,
+        "opening_hours": "8:30 AM",
+        "closing_hours": "7:00 PM",
+        "created_at": "2023-10-10T20:05:04.433Z",
+        "updated_at": "2023-10-10T18:10:29.898Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3b2ad939-e3c4-48f7-a58a-66df503ffdca",
+        "name": "Outlet 3",
+        "location": "Business Park",
+        "inventory_count": 37832,
+        "opening_hours": "10:00 AM",
+        "closing_hours": "5:30 PM",
+        "created_at": "2023-10-10T13:50:35.068Z",
+        "updated_at": "2023-10-10T20:14:26.038Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "131e3f4e-28ee-4217-a1cd-557badf68260",
+        "name": "Outlet 4",
+        "location": "Residential Area",
+        "inventory_count": 71528,
+        "opening_hours": "7:30 AM",
+        "closing_hours": "8:00 PM",
+        "created_at": "2023-10-10T14:43:28.682Z",
+        "updated_at": "2023-10-10T00:34:40.555Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8d40d3c8-3e60-493d-a36c-22e217bbef80",
+        "name": "Outlet 5",
+        "location": "Tourist Attraction",
+        "inventory_count": 18143,
+        "opening_hours": "9:30 AM",
+        "closing_hours": "6:30 PM",
+        "created_at": "2023-10-10T04:30:19.792Z",
+        "updated_at": "2023-10-10T05:03:00.066Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "e9331b74-2f33-4a01-92e0-fd87b0065f24",
+        "name": "Tool 1",
+        "description": "Powerful and versatile tool",
+        "price_per_day": 50670,
+        "available": true,
+        "created_at": "2023-10-10T21:28:52.372Z",
+        "updated_at": "2023-10-10T04:29:55.485Z",
+        "outlet_id": "3095f894-f6ef-4c0c-8bf0-06d6fd6247d3"
+      },
+      {
+        "id": "6044fea7-c1e8-44ee-a47a-6c8e2c7ef52f",
+        "name": "Tool 2",
+        "description": "Efficient and user-friendly tool",
+        "price_per_day": 5729,
+        "available": true,
+        "created_at": "2023-10-10T17:32:36.164Z",
+        "updated_at": "2023-10-10T18:15:29.708Z",
+        "outlet_id": "131e3f4e-28ee-4217-a1cd-557badf68260"
+      },
+      {
+        "id": "e893f47e-3ac7-461c-8226-b1b44816cbe8",
+        "name": "Tool 3",
+        "description": "Innovative tool for productivity",
+        "price_per_day": 66914,
+        "available": false,
+        "created_at": "2023-10-10T09:22:47.380Z",
+        "updated_at": "2023-10-10T17:53:01.856Z",
+        "outlet_id": "131e3f4e-28ee-4217-a1cd-557badf68260"
+      },
+      {
+        "id": "42cf7814-93d7-4135-a245-a535142c2676",
+        "name": "Tool 4",
+        "description": "Reliable and durable tool",
+        "price_per_day": 50727,
+        "available": true,
+        "created_at": "2023-10-10T15:22:29.583Z",
+        "updated_at": "2023-10-10T12:49:14.953Z",
+        "outlet_id": "131e3f4e-28ee-4217-a1cd-557badf68260"
+      },
+      {
+        "id": "d9c6af71-bb42-4602-82a9-272c4c7388ab",
+        "name": "Tool 5",
+        "description": "Advanced tool for professionals",
+        "price_per_day": 83143,
+        "available": false,
+        "created_at": "2023-10-10T13:10:52.000Z",
+        "updated_at": "2023-10-10T19:21:37.708Z",
+        "outlet_id": "8d40d3c8-3e60-493d-a36c-22e217bbef80"
+      }
+    ],
+    "rental": [
+      {
+        "id": "cc1c19c2-a336-480f-90b5-046450f489e2",
+        "start_date": "2023-10-10T18:15:43.614Z",
+        "end_date": "2023-10-10T12:30:50.339Z",
+        "total_price": 16770,
+        "created_at": "2023-10-10T12:51:53.543Z",
+        "updated_at": "2023-10-10T22:59:31.762Z",
+        "tool_id": "6044fea7-c1e8-44ee-a47a-6c8e2c7ef52f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b816b60-dc70-4e94-93f0-3ca5f2ed50e8",
+        "start_date": "2023-10-10T23:18:51.965Z",
+        "end_date": "2023-10-10T14:15:15.646Z",
+        "total_price": 35620,
+        "created_at": "2023-10-11T00:06:39.024Z",
+        "updated_at": "2023-10-10T10:07:52.898Z",
+        "tool_id": "d9c6af71-bb42-4602-82a9-272c4c7388ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b4f47cc-476e-4e30-a8d4-ed96ce78fcb7",
+        "start_date": "2023-10-10T02:14:12.560Z",
+        "end_date": "2023-10-10T02:55:55.747Z",
+        "total_price": 60291,
+        "created_at": "2023-10-10T08:25:56.066Z",
+        "updated_at": "2023-10-10T04:03:54.468Z",
+        "tool_id": "d9c6af71-bb42-4602-82a9-272c4c7388ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2e1fa36-84ba-4417-942a-95fd41db4b71",
+        "start_date": "2023-10-10T15:04:01.857Z",
+        "end_date": "2023-10-10T20:16:02.915Z",
+        "total_price": 33434,
+        "created_at": "2023-10-10T10:00:43.497Z",
+        "updated_at": "2023-10-10T16:00:52.892Z",
+        "tool_id": "d9c6af71-bb42-4602-82a9-272c4c7388ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d3d5c56-c94b-4b8c-84a2-8359fe98e564",
+        "start_date": "2023-10-11T00:19:56.839Z",
+        "end_date": "2023-10-10T17:37:21.693Z",
+        "total_price": 45026,
+        "created_at": "2023-10-10T01:42:50.606Z",
+        "updated_at": "2023-10-11T00:17:17.281Z",
+        "tool_id": "e9331b74-2f33-4a01-92e0-fd87b0065f24",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7e1b1717-6918-4eb5-87b7-d5ad2cae56e3",
+        "email": "Dock43@roq.tech",
+        "firstName": "Layla",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/107.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8661d22a-abeb-49e1-a91e-2f5199e80f65",
+        "email": "Steve.Hegmann@roq.tech",
+        "firstName": "Robbie",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58511411",
+        "tenantId": null
+      },
+      {
+        "reference": "ddfc58c3-7253-4971-b479-05289a26756b",
+        "email": "Josiane_Bernhard68@roq.tech",
+        "firstName": "Randal",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/503.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "115ef3c7-cf94-498e-9578-c3b4b09a93a5",
+        "email": "Preston18@roq.tech",
+        "firstName": "Dolores",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/955.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "388ea651-7c17-4c73-a885-63d65ef70238",
+        "email": "Imogene15@roq.tech",
+        "firstName": "Aliya",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15671487",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "65eb07b7-252a-443a-88a7-d75902f88174",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "inventory_count": 30817,
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "created_at": "2023-10-10T05:11:49.487Z",
+        "updated_at": "2023-10-10T22:36:32.493Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5cd5a45e-30b4-4514-90d7-91720c0df835",
+        "name": "Outlet 2",
+        "location": "Shopping Mall",
+        "inventory_count": 64828,
+        "opening_hours": "8:30 AM",
+        "closing_hours": "9:00 PM",
+        "created_at": "2023-10-10T13:28:58.513Z",
+        "updated_at": "2023-10-10T12:54:30.654Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4ea963de-0467-49bd-87ad-9180cde40567",
+        "name": "Outlet 3",
+        "location": "Business District",
+        "inventory_count": 7257,
+        "opening_hours": "10:00 AM",
+        "closing_hours": "7:30 PM",
+        "created_at": "2023-10-10T09:22:17.318Z",
+        "updated_at": "2023-10-10T13:44:41.011Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b0b7926a-beed-4b57-ac5a-43df34e33f05",
+        "name": "Outlet 4",
+        "location": "Residential Area",
+        "inventory_count": 5442,
+        "opening_hours": "9:30 AM",
+        "closing_hours": "8:00 PM",
+        "created_at": "2023-10-10T23:48:04.100Z",
+        "updated_at": "2023-10-10T06:31:05.093Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b8b64e97-d873-4c7a-ba6d-f4fe87e33c46",
+        "name": "Outlet 5",
+        "location": "Tourist Spot",
+        "inventory_count": 85354,
+        "opening_hours": "8:00 AM",
+        "closing_hours": "6:30 PM",
+        "created_at": "2023-10-10T18:50:31.863Z",
+        "updated_at": "2023-10-10T19:44:12.146Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "0e30d778-86de-4a08-a713-2b4b297397a7",
+        "name": "Tool 1",
+        "description": "Powerful tool for data analysis",
+        "price_per_day": 82402,
+        "available": false,
+        "created_at": "2023-10-10T10:37:50.492Z",
+        "updated_at": "2023-10-10T11:23:17.277Z",
+        "outlet_id": "b8b64e97-d873-4c7a-ba6d-f4fe87e33c46"
+      },
+      {
+        "id": "724e2170-6dff-4223-ae29-97990348039a",
+        "name": "Tool 2",
+        "description": "Versatile tool for project management",
+        "price_per_day": 63745,
+        "available": false,
+        "created_at": "2023-10-10T05:51:42.819Z",
+        "updated_at": "2023-10-10T22:33:37.814Z",
+        "outlet_id": "65eb07b7-252a-443a-88a7-d75902f88174"
+      },
+      {
+        "id": "aaddadb0-1168-438e-9f4d-42cba3b9d561",
+        "name": "Tool 3",
+        "description": "Efficient tool for task automation",
+        "price_per_day": 34552,
+        "available": false,
+        "created_at": "2023-10-10T23:34:38.850Z",
+        "updated_at": "2023-10-10T19:08:37.406Z",
+        "outlet_id": "4ea963de-0467-49bd-87ad-9180cde40567"
+      },
+      {
+        "id": "9f63f797-4ef7-454c-acde-e680fa6da288",
+        "name": "Tool 4",
+        "description": "Innovative tool for collaboration",
+        "price_per_day": 34499,
+        "available": true,
+        "created_at": "2023-10-10T03:59:49.945Z",
+        "updated_at": "2023-10-10T08:14:56.658Z",
+        "outlet_id": "b0b7926a-beed-4b57-ac5a-43df34e33f05"
+      },
+      {
+        "id": "69d25d1e-509b-4bec-b495-636bd2185ff8",
+        "name": "Tool 5",
+        "description": "User-friendly tool for document editing",
+        "price_per_day": 53381,
+        "available": true,
+        "created_at": "2023-10-10T20:45:23.250Z",
+        "updated_at": "2023-10-10T19:48:44.209Z",
+        "outlet_id": "b8b64e97-d873-4c7a-ba6d-f4fe87e33c46"
+      }
+    ],
+    "rental": [
+      {
+        "id": "ce79e2be-8850-4945-9c9d-28f3da774f5d",
+        "start_date": "2023-10-10T03:31:37.962Z",
+        "end_date": "2023-10-10T20:45:46.775Z",
+        "total_price": 49201,
+        "created_at": "2023-10-10T11:47:24.740Z",
+        "updated_at": "2023-10-10T14:11:06.314Z",
+        "tool_id": "9f63f797-4ef7-454c-acde-e680fa6da288",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "732ededc-f71f-4404-a69b-eb935c340446",
+        "start_date": "2023-10-10T02:37:38.038Z",
+        "end_date": "2023-10-10T08:06:18.161Z",
+        "total_price": 75977,
+        "created_at": "2023-10-10T14:13:56.423Z",
+        "updated_at": "2023-10-10T05:44:30.946Z",
+        "tool_id": "69d25d1e-509b-4bec-b495-636bd2185ff8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "328a3561-19ab-46b0-931d-82c51f6ba22b",
+        "start_date": "2023-10-10T08:03:37.412Z",
+        "end_date": "2023-10-10T16:46:44.590Z",
+        "total_price": 59564,
+        "created_at": "2023-10-10T09:00:24.337Z",
+        "updated_at": "2023-10-10T09:16:54.883Z",
+        "tool_id": "724e2170-6dff-4223-ae29-97990348039a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bd38333-51a6-4955-bc4f-f1472d53f35f",
+        "start_date": "2023-10-10T17:24:47.799Z",
+        "end_date": "2023-10-10T18:44:36.588Z",
+        "total_price": 44696,
+        "created_at": "2023-10-10T21:06:11.757Z",
+        "updated_at": "2023-10-10T07:59:02.503Z",
+        "tool_id": "69d25d1e-509b-4bec-b495-636bd2185ff8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bcbfbd7-d6f5-4b2d-b74f-799aacb9742f",
+        "start_date": "2023-10-10T12:32:34.709Z",
+        "end_date": "2023-10-10T19:57:43.612Z",
+        "total_price": 57315,
+        "created_at": "2023-10-10T15:56:36.735Z",
+        "updated_at": "2023-10-10T05:10:24.885Z",
+        "tool_id": "9f63f797-4ef7-454c-acde-e680fa6da288",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4a686fdc-fd2b-4f0a-9e87-e8722e76d70f",
+        "email": "Mireya21@roq.tech",
+        "firstName": "Magdalen",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/571.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "29f97e06-75a2-499d-98f6-c197c7f87950",
+        "email": "Ezra_OConner@roq.tech",
+        "firstName": "Cordelia",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/562.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "912270fe-7f8a-48ff-8141-ae57828eca7b",
+        "email": "Jeremy41@roq.tech",
+        "firstName": "Annamarie",
+        "lastName": "Turner-Baumbach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40170798",
+        "tenantId": null
+      },
+      {
+        "reference": "22b99556-299c-4a23-bc10-82846eb65611",
+        "email": "Eladio_Torp@roq.tech",
+        "firstName": "Marquise",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/982.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "613dc715-bc0c-4f54-bccd-2db7af5a04a3",
+        "email": "Einar_Steuber@roq.tech",
+        "firstName": "Ellsworth",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82750717",
+        "tenantId": null
+      }
+    ]
+  }
+]
